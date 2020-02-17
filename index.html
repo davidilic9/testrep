@@ -7,17 +7,19 @@
     <!-- CSS -->
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <!-- SCRIPTS -->
+    <script src="script.js"></script>
 
     <title>Professional Copywriting Services: Turn Your Underperforming Website into a Lead-Generating Machine</title>
-    <script src="scripts.js"></script>
 
 </head>
-<body>
-
+<body onload="CheckIt();">
 <!-- Modal -->
+
+<label for="modal1">
 <div id="css-only-modals">
-    <input id="modal1" class="css-only-modal-check" type="checkbox" checked/>
+    <input id="modal1" class="css-only-modal-check" type="checkbox"/>
     <div class="css-only-modal">
         <label for="modal1" class="css-only-modal-close"><i class="fa fa-times fa-2x"></i></label>
         <h2>Referral</h2>
@@ -28,6 +30,7 @@
     </div>
     <div id="screen-shade"></div>
 </div>
+</label>
 
 <nav class="" id="navbar">
     <div class="nav-wrapper">
@@ -51,7 +54,7 @@
     <img class="profile--smallscreen" src="resources/jamescurtis.png">
     <h1 class="headline">Turn Your Underperforming Website into a Lead-Generating<br>Machine</h1>
     <p class="subheading">Communicate Your Value. Connect With Your Customers. Increase&nbsp;Your&nbsp;Revenue.</p>
-    <button class="button hero--button"><a href="#contactform">REQUEST COPYWRITING</a></button>
+    <button class="button hero--button"><a href="#contactform">Request Copywriting</a></button>
     <img class="profile" src="resources/jamescurtis.png">
 </div>
 
@@ -63,7 +66,7 @@
 </div>
 
 <div  class="service">
-    <h1 class="service--heading">BUY COPY THAT SELLS</h1>
+    <h1 class="service--heading">Buy Copy That Sells</h1>
     <div class="copywriting">
         <p class="">...because your copy is your biggest asset. You can sell the best product in the world. But if you
             don't have a well-written copy, you'll remain cashless.</p>
@@ -82,11 +85,11 @@
 
 <div id="walkthrough" class="call">
     <h1 class="ready">Ready?</h1>
-    <button class="button call--button"><a href="#contactform">REQUEST COPYWRITING</a></button>
+    <button class="button call--button"><a href="#contactform">Request Copywriting</a></button>
 </div>
 
 <div  class="walkthrough">
-    <h1 class="walkthrough--heading">AFTER YOU CONTACT ME</h1>
+    <h1 class="walkthrough--heading">After You Contact Me</h1>
     <div class="explanation">
         <p class="">Shortly after receiving your email, I'll do an analysis to see how much can you benefit from
             copywriting. If all is well, I'll soon shoot you a quote and project timeline.</p>
@@ -104,7 +107,7 @@
 
 <div class="call2 ">
     <h1 class="ready2">Contact Me!</h1>
-    <button class="button call--button2"><a href="#contactform">REQUEST COPYWRITING</a></button>
+    <button class="button call--button2"><a href="#contactform">Request Copywriting</a></button>
 </div>
 
 <div id="testimonials" class="testimonials">
@@ -115,7 +118,7 @@
             <i class="fas fa-quote-right"></i>
         </div>
         <div class="testimonial-footer">
-            <img src="resources/32.jpg" alt="user"/>
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="user"/>
             <h3>Chris Holland</h3>
         </div>
     </div>
@@ -131,7 +134,7 @@
     </div>
     <div class="testimonial upright">
         <div class="testimonial-body">
-            <p>I highly recomment James. He reviewed my website for free as his first job and helped to improve my web design. I followed his advice and within a 48 hours received the first conversion.</p>
+            <p>I highly recomment James. He reviewed my website for free as his first job and helped to improve my web design. I followed his advice and within the next 48 hours received the first conversion.</p>
             <i class="fas fa-quote-right"></i>
         </div>
         <div class="testimonial-footer">
@@ -174,15 +177,15 @@
 <div id="contactform" class="contact">
 <div class="container">
     <form id="contact" action="https://app.99inbound.com/api/e/-JBu6RWw" method="post">
-        <h3 class="">Send me a message</h3>
-        <h4 class="">Contact me today and get a reply with in 24 hours!</h4>
+        <h3 class="">Send Me a Message</h3>
+        <h4 class="">Contact me and get a reply within 24 hours!</h4>
             <input placeholder="Name" type="text" name="Name" tabindex="1" required>
             <input placeholder="Email" type="email" name="Email" tabindex="2" required>
-            <input placeholder="Type of Copywriting (Value prop, landing page, email, etc.)" name="Type of Copywriting" type="text" tabindex="3" required>
-            <input placeholder="Your Web Site (starts with http://)" type="url" tabindex="4" name="Site URL" required/>
-        <input placeholder="Number of pages (One, three, six, etc.)" type="text" name="Number of Pages" tabindex="5" required>
-            <textarea placeholder="Type your Message Here...." tabindex="6" name="Message" required></textarea>
-            <button type="submit" id="contact-submit" data-submit="...Sending">REQUEST COPYWRITING</button>
+            <input placeholder="Type of Copywriting (value prop, landing page, email, etc.)" name="Type of Copywriting" type="text" tabindex="3" required>
+            <input placeholder="Your Website (starts with http://)" type="url" tabindex="4" name="Site URL" required/>
+        <input placeholder="Number of pages" type="text" name="Number of Pages" tabindex="5" required>
+            <textarea placeholder="Type Your Message Here...." tabindex="6" name="Message" required></textarea>
+            <button type="submit" id="contact-submit" data-submit="...Sending">Submit Proposal</button>
 
         <div style="position: absolute; left: -5000px;">
             <input type="checkbox" name="governing_sunshine_fractal_address" value="1" tabindex="-1" autocomplete="no">

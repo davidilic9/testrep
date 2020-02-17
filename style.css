@@ -5,7 +5,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Bitter', serif;
+    scroll-behavior: smooth;
+}
+
+button{
+    text-transform: uppercase;
 }
 
 html,body{
@@ -14,6 +18,7 @@ html,body{
 
 body{
     overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -22,7 +27,6 @@ a {
     font-size: inherit;
     text-decoration: none;
 }
-
 
 #navbar {
     background: #1A1A1C;
@@ -104,6 +108,7 @@ a {
     text-transform: uppercase;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
+    font-family: 'Bitter', serif;
 }
 
 #navbar li a:hover {
@@ -265,6 +270,7 @@ a {
     line-height: 1.3;
     letter-spacing: 0;
     padding-right: 50px;
+    font-family: 'Bitter', serif;
 }
 
 .subheading{
@@ -276,13 +282,14 @@ a {
     font-size: 25px;
     line-height: 1.3;
     letter-spacing: 0;
-    font-family: 'Calibri', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding-right: 50px;
 }
 
 .hero--button{
     position: relative;
     top:175px;
+    font-family: 'Bitter', sans-serif;
 }
 
 .button{
@@ -326,6 +333,18 @@ a {
     .profile{
         display: block !important;
     }
+    .hero{
+        height: 700px;
+    }
+
+    .profile{
+        display: block !important;
+        top: -124px;
+    }
+
+    .headline, .subheading{
+        width: 800px;
+    }
 }
 
 @media (min-width: 1550px) and (max-width: 1700px){
@@ -351,7 +370,7 @@ a {
     }
     .profile{
         display: block !important;
-        top: -140px;
+        top: -75px;
     }
 
     .headline, .subheading{
@@ -498,7 +517,7 @@ a {
     }
 }
 
-@media (min-width: 1550px) and (max-width: 1700px){
+@media (min-width: 1550px){
     .brand2{
         top: 645px !important;
     }
@@ -507,7 +526,7 @@ a {
 @media (min-width: 1400px) and (max-width: 1550px){
 
     .brand2{
-        top: 820px !important;
+        top: 697px !important;
     }
 
     .brand3{
@@ -615,6 +634,7 @@ a {
     margin-top: 55px;
     font-size: 45px;
     display: block;
+    font-family: 'Bitter', serif;
 }
 
 .copywriting {
@@ -622,6 +642,7 @@ a {
     margin-left: 14%;
     margin-top: 15px;
     font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .service--photo{
@@ -785,6 +806,7 @@ a {
     background: #BD2C15;
     position: relative;
     bottom: 80px;
+    font-family: 'Bitter', serif;
 }
 
 .call--button{
@@ -800,6 +822,7 @@ a {
     bottom: 200px;
     cursor: pointer;
     float: right;
+    font-family: 'Bitter', serif;
 }
 
 .call--button:hover{
@@ -885,6 +908,7 @@ a {
     right: 11%;
     font-size: 40px;
     text-align: center;
+    font-family: 'Bitter', serif;
 }
 
 .explanation{
@@ -1086,6 +1110,7 @@ a {
     height: 170px;
     background: #BD2C15;
     position: relative;
+    font-family: 'Bitter', serif;
 }
 
 .call--button2{
@@ -1101,6 +1126,7 @@ a {
     cursor: pointer;
     float: right;
     top: 0px;
+    font-family: 'Bitter', serif;
 }
 
 .call--button2:hover{
@@ -1226,6 +1252,7 @@ a {
     color: #fff;
     padding: 40px;
     text-align: center;
+    font-family: 'Bitter', serif;
 }
 
 .testimonial-footer img {
@@ -1267,6 +1294,18 @@ a {
 .up, .down{
     margin-top: 35px;
     margin-left: 2.9%
+}
+
+@media(min-width: 1800px) and (max-width:3000px) {
+    .up, .down{
+        margin-left: 10%;
+    }
+}
+
+@media(min-width: 1700px) and (max-width:1800px) {
+    .up, .down{
+        margin-left: 5%;
+    }
 }
 
 @media (max-width: 1500px){
@@ -1333,7 +1372,9 @@ a {
     top:60px;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+.container h3 {
+    font-family: 'Bitter', serif;
+}
 
 #contact {
     background:#1A1A1C;
@@ -1363,6 +1404,7 @@ a {
     background:#FFF;
     margin:0 0 5px;
     padding:10px;
+    font-family: 'Raleway', serif;
 }
 
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
@@ -1379,7 +1421,7 @@ a {
 }
 
 #contact button[type="submit"] {
-    font-family: 'Bitter',sans-serif;
+    font-family: 'Bitter', sans-serif;
     display: block;
     margin:0 auto;
     color: white;
@@ -1562,6 +1604,7 @@ hr {
 .css-only-modal h2 {
     text-align: left;
     color: #1A1A1C;
+    font-family: 'Bitter', serif;
 }
 
 .css-only-modal p {
@@ -1582,6 +1625,7 @@ hr {
     opacity: 0.5;
     pointer-events: auto;
 }
+
 
 #screen-shade {
     opacity: 0;
@@ -1618,6 +1662,7 @@ hr {
     color: white;
     padding: 8px 18px;
     letter-spacing: 0.5px;
+    font-family: 'Bitter', serif;
 }
 
 .css-only-modal-btn:hover{
